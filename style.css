@@ -60,6 +60,7 @@ a:active {
   height: 700px;
   background-image: url(./images/banner.jpg);
   background-size: cover;
+  width: 100%;
 }
 
 .top-heading {
@@ -98,7 +99,7 @@ a:active {
   flex-direction: column;
   height: 350px;
   margin-bottom: 30px;
-
+  width: 100%;
 }
 
 .specialty {
@@ -141,6 +142,7 @@ a:active {
   display: flex;
   justify-content: center ;
   background-color: #E5E7EB;
+  width: 100%;
 }
 
  .speech {
@@ -170,7 +172,7 @@ a:active {
   justify-content: center;
   align-items: center;
   height: 320px;
-
+  width: 100%;
 }
 
  .action-area {
