@@ -84,6 +84,14 @@
   /* margin-top: 60px; */
   flex-direction: column;
   height: 350px;
+  margin-bottom: 30px;
+
+}
+
+.specialty {
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  margin-top: 15px;
 }
 
 .cards {
@@ -98,8 +106,13 @@
 
 .card {
   /* display: flex; */
-  width: 100px;
+  width: 180px;
+  height: 280px;
+}
 
+.card-image {
+  border-radius: 8px;
+  margin-bottom: 5px;
 }
 
 .quote {
@@ -114,16 +127,28 @@
   height: 320px;
   display: flex;
   justify-content: center ;
-
+  background-color: #E5E7EB;
 }
 
  .speech {
   width: 50%;
+
+  width: 700px;
+
+ }
+
+ .words {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: 'Zeyada', cursive;
  }
 
  .author {
   display: flex;
-   justify-content: flex-end;
+  justify-content: flex-end;
+  width: 700px;
+  font-size: 18px;
+  font-weight: 600;
  }
 
 .bottom{
@@ -153,5 +178,15 @@
  .action-button {
   display: flex;
   align-items: center;
-  margin-right: 40px;
+  margin-right: 40px
+ }
+
+ .action {
+  width: max-content;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #53C191;
+  color: white;
+  border: none;
+
  }
