@@ -35,7 +35,7 @@
 }
 
 .links a:hover {
-  color: #FFB800;
+  color: #53C191;
 }
 
 .top-content {
@@ -44,7 +44,18 @@
   align-items: center;
   /* margin-top: 60px; */
   gap: 300px;
-  height: 400px;
+  height: 700px;
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+}
+
+.top-heading {
+  font-size: 35px;
+
+}
+
+.info p {
+  color: white;
 }
 
 .info {
@@ -52,14 +63,18 @@
   flex-direction: column;
   /* margin-right: 25px; */
   height: 165px;
+  width: 400px;
+  gap: 15px;
 }
 
 .sign-up-top {
   margin-top: 60px;
-  width: 100px;
+  width: fit-content;
   border-radius: 8px;
-  padding: 8px;
+  padding: 12px;
   margin-top: auto;
+  background-color: #53C191;
+  color: white  ;
 }
 
 .main-content {
