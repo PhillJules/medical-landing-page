@@ -91,6 +91,12 @@ a:active {
   flex-wrap: wrap-reverse;
 }
 
+@media screen and (max-width: 768px) {
+  .top-photo {
+    max-height: 200px; /* Decrease the font size for smaller screens */
+  }
+}
+
 .top-photo {
   display: flex;
   justify-content: center;
